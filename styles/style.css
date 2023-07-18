@@ -1,0 +1,279 @@
+html, body {
+  height: auto;
+  width: auto;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#home {
+  background-image: url(../assets/home/background-home-desktop.png);
+}
+
+#destination {
+  background-image: url(../assets/destination/background-destination-desktop.png);
+}
+
+#crew {
+  background-image: url(../assets/crew/background-crew-desktop.png);
+}
+
+#technology {
+  background-image: url(../assets/technology/background-technology-desktop.png);
+}
+
+#navbar {
+  margin-top: 40px;
+  margin-left: 55px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#left-col, #right-col {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#left-col {
+  width: 32%;
+  justify-content: space-between;
+}
+
+#line {
+  position: absolute;
+  width: 320px;
+  height: 1px;
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+  margin-left: 167px;
+  z-index: 1;
+}
+
+#right-col {
+  width: 68%;
+  height: 96px;
+  justify-content:space-evenly;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(40.7742px);
+  
+}
+
+#right-col a {
+  text-decoration: none;
+  color: #FFFFFF;
+  letter-spacing: 3px;
+  font-family: 'Barlow Condensed';
+  font-size: 1em;
+}
+
+#right-col a.active {
+  text-decoration: underline 1px solid #FFFFFF;
+  text-underline-offset: 2.5em;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  margin: 0px 165px;
+}
+
+#home-text {
+  margin-top: 150px;
+  width: 450px;
+  height: 382px;
+}
+
+.subtitle {
+  font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 1.75em;
+line-height: 34px;
+letter-spacing: 4.725px;
+color: #D0D6F9;
+}
+
+.title {
+  font-weight: 400;
+  font-family: 'Bellefair';
+  font-size: 9.38em;
+  line-height: 172px;
+  color: #FFFFFF;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.13em;
+  line-height: 32px;
+  color: #D0D6F9;
+}
+
+#explore {
+  margin-top: 300px;
+  align-items: center;
+  justify-content: center;
+  padding: 65px 40px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+}
+
+#explore h2 {
+  padding-bottom: 15px;
+  font-family: 'Bellefair';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2em;
+  line-height: 37px;
+  letter-spacing: 2px;
+  color: #0B0D17;
+  cursor: pointer;
+}
+
+#subtitle {
+  margin: 50px 165px;
+}
+
+.destinations, #moon-information p {
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: transparent;
+  border: none;
+  letter-spacing: 2.7px;
+  font-family: 'Barlow Condensed';
+  font-size: 1em;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.planet-description, .crew-description {
+  max-width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#rectangle {
+  width: 470px;
+  height: 1px;
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+}
+
+#moon-information {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+#moon-information h3 {
+  font-family: 'Bellefair';
+  font-weight: 400;
+  font-size: 1.75em;
+  color: #FFFFFF;
+  margin-bottom: 0;
+}
+
+.active-button {
+  text-decoration: underline 1px solid #FFFFFF;
+  text-underline-offset: 1em;
+}
+
+.crew-member {
+  margin-right: 20px;
+  border: 1px soldi rgb(255, 253, 253);
+  border-radius: 50%;
+  width: 10px;
+  height: 15px;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(40.7742px);
+}
+
+.active-member {
+  background-color: #FFFFFF;
+}
+
+#crew-section {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#crew-image {
+  width: 400px;
+  height: 450px;
+}
+
+#technology-image {
+  width: 600px;
+  height: 400px;
+}
+
+#crew-name {
+  font-weight: 400;
+  font-family: 'Bellefair';
+  font-size: 4em;
+  color: #FFFFFF;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#technology-section {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 0px;
+}
+
+#technology-section div {
+  justify-content: space-between;
+}
+
+.active-page {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+}
+
+.rocket-info {
+  margin-right: 50px;
+}
+
+.terminology {
+  font-family: 'Bellefair';
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  background-color: transparent;
+  color: #FFFFFF;
+  font-size: 2em;
+}
+
+.active-rocket {
+  background-color: #FFFFFF;
+  color: #0B0D17;
+  cursor: pointer;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.rocket-name {
+  font-weight: 400;
+  font-family: 'Bellefair';
+  font-size: 4em;
+  color: #FFFFFF;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

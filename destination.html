@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space tourism website</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="destination">
+    <nav id="navbar">
+      <div id="left-col">
+        <img id="logo" src="./assets/shared/logo.svg" alt="logo" />
+        <div id="line"></div>
+      </div>
+      <div id="right-col">
+        <a href="index.html"><b>00</b> HOME</a>
+        <a href="destination.html"><b>01</b> DESTINATION</a>
+        <a href="crew.html"><b>02</b> CREW</a>
+        <a href="technology.html"><b>03</b> TECHNOLOGY</a>
+      </div>
+    </nav>
+    <h2 id="subtitle" class="subtitle"><b>01</b> PICK YOUR DESTINATION</h2>
+    <section>
+      <div>
+        <img
+          id="destination-image"
+          src="./assets/destination/image-europa.png"
+        />
+      </div>
+      <div class="planet-description">
+        <div>
+          <button id="moon" class="destinations"></button>
+          <button id="mars" class="destinations"></button>
+          <button id="europa" class="destinations"></button>
+          <button id="titan" class="destinations"></button>
+        </div>
+        <h1 class="title" id="title"></h1>
+        <p id="moon-description" class="description"></p>
+        <div id="rectangle"></div>
+        <div id="moon-information">
+          <span>
+            <p id="distance-p"></p>
+            <h3 id="distance"></h3>
+          </span>
+          <span>
+            <p id="travel-p"></p>
+            <h3 id="travel"></h3>
+          </span>
+        </div>
+      </div>
+    </section>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
